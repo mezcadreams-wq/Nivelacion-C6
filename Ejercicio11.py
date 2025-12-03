@@ -1,9 +1,9 @@
 
-contraseña_sistema  = "admin123"
+def confirm()
+    Password_correct = "admin123"
+    Password = input("ingrese contraseña")
 
-Contraseña_usuario = input("ingrese contraseña")
-
-if contraseña_sistema == Contraseña_usuario:
+if  Password_correct == Password
     print("Contraseña correcta")
 else:
-    print("contraseña incorrecta")        
+    print("contraseña incorrecta")
